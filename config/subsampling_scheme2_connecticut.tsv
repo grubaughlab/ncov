@@ -1,0 +1,16 @@
+purpose	level	name	size	start	end
+focus	pango_lineage	B.1.1.7	10	2020-09-01	
+focus	pango_lineage	B.1.351	10	2020-09-01	
+focus	pango_lineage	B.1.375	10	2020-09-01	
+focus	pango_lineage	B.1.526	10	2020-09-01	
+focus	pango_lineage	B.1.525	10	2020-09-01	
+focus	pango_lineage	B.1.429	10	2020-09-01	
+focus	pango_lineage	P.1	10	2020-09-01	
+focus	country_exposure	USA	50	2020-09-01	
+context	country_exposure	South Africa	10	2020-09-01	
+context	region_exposure	Europe	20	2020-09-01	
+context	region_exposure	Asia	20	2020-09-01	
+context	country_exposure	Canada	20	2020-09-01	
+ignore	country_exposure	India			
+ignore	country_exposure	Bangladesh			
+ignore	country_exposure	Saudi Arabia			

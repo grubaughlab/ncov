@@ -1,0 +1,48 @@
+purpose	level	name	size	start	end
+focus	pango_lineage	B.1.1.7	100	2020-09-01	
+focus	pango_lineage	B.1.351	50	2020-09-01	
+focus	pango_lineage	B.1.375	40	2020-09-01	
+focus	pango_lineage	B.1.526	30	2020-09-01	
+focus	pango_lineage	B.1.525	30	2020-09-01	
+focus	pango_lineage	B.1.429	30	2020-09-01	
+focus	pango_lineage	P.1	50	2020-09-01	
+focus	country_exposure	USA	15	2020-09-01	
+context	region_exposure	Europe	20	2020-09-01	
+context	region_exposure	Asia	20	2020-09-01	
+context	country_exposure	Canada	15	2020-09-01	
+ignore	country_exposure	India			
+ignore	country_exposure	Bangladesh			
+ignore	country_exposure	Saudi Arabia			
+focus	country_exposure	Antigua and Barbuda	9999	2020-09-01	
+focus	country_exposure	Bahamas	9999	2020-09-01	
+focus	country_exposure	Barbados	9999	2020-09-01	
+focus	country_exposure	Belize	100	2020-09-01	
+focus	country_exposure	Bermuda	9999	2020-09-01	
+focus	country_exposure	British Virgin Islands	9999	2020-09-01	
+focus	country_exposure	Cayman Islands	9999	2020-09-01	
+focus	country_exposure	Colombia	100	2020-09-01	
+focus	country_exposure	Costa Rica	10	2020-09-01	
+focus	country_exposure	Cuba	9999	2020-09-01	
+focus	country_exposure	Dominican Republic	9999	2020-09-01	
+focus	country_exposure	Dominica	9999	2020-09-01	
+focus	country_exposure	El Salvador	20	2020-09-01	
+focus	country_exposure	French Guiana	9999	2020-09-01	
+focus	country_exposure	Guadelupe	9999	2020-09-01	
+focus	country_exposure	Guatemala	10	2020-09-01	
+focus	country_exposure	Guyana	100	2020-09-01	
+focus	country_exposure	Haiti	9999	2020-09-01	
+focus	country_exposure	Honduras	10	2020-09-01	
+focus	country_exposure	Jamaica	9999	2020-09-01	
+focus	country_exposure	Martinique	9999	2020-09-01	
+focus	country_exposure	Mexico	20	2020-09-01	
+focus	country_exposure	Panama	10	2020-09-01	
+focus	country_exposure	Saint Barthelemy	9999	2020-09-01	
+focus	country_exposure	Saint Kitts and Nevis	9999	2020-09-01	
+focus	country_exposure	Saint Lucia	9999	2020-09-01	
+focus	country_exposure	Saint Martin	9999	2020-09-01	
+focus	country_exposure	Saint Vincent and the Grenadines	9999	2020-09-01	
+focus	country_exposure	Sint Eustatius	9999	2020-09-01	
+focus	country_exposure	Sint Maarten	9999	2020-09-01	
+focus	country_exposure	Suriname	9999	2020-09-01	
+focus	country_exposure	Trinidad and Tobago	9999	2020-09-01	
+context	region_exposure	South America	60	2020-09-01	
