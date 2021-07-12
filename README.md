@@ -101,7 +101,7 @@ The files `provision.json` and  `gisaid_hcov-19.fasta` contain genomic sequences
 
 The file `gisaid_hcov-19.fasta` can be generated via searches on gisaid.org. To do so, the user needs to provide a list of gisaid accession numbers, as follows:
 
-1. If one needs, for example, to sample around 600 genomes of viruses belonging to lineages `B.1.1.7` (alpha variant) and `B.1.617.2` (delta variant), circulating in the US and the United Kingdom, between 2020-12-01 and 2021-06-30, having other US and European samples as contextual genomes, while ignoring genomes from California and Scotland, the following script can be used, provided a `--metadata` file listing all genomes on GISAID is provided:
+1. If one needs, for example, to sample around 600 genomes of viruses belonging to lineages `B.1.1.7` (alpha variant) and `B.1.617.2` (delta variant), circulating in the US and the United Kingdom, between 2020-12-01 and 2021-06-30, having other US and European samples as contextual genomes, while ignoring genomes from California and Scotland, the following script can be used, provided a `--metadata` file listing all genomes on GISAID is available:
 
 > genome_selector.py [-h] --metadata METADATA [--keep KEEP] [--remove REMOVE] --scheme SCHEME [--report REPORT]
 
@@ -117,15 +117,15 @@ The file `gisaid_hcov-19.fasta` can be generated via searches on gisaid.org. To 
 |ignore |division     |Scotland  |    |          |          |
 
 
-Among the outputs of `genome_selector.py` users will find text files containing a list of genome names (e.g. USA/CT-CDC-LC0062417/2021) and a list of gisaid accession numbers (e.g. EPI_ISL_2399048). The first file (genome names) can be placed at `config/keep.txt`, to list the genomes that will be included in the run. The second file (accession numbers) can be used to filter genomes directly from gisaid.org, as follows:
+Among the outputs of `genome_selector.py` users will find text files containing a list of genome names (e.g. USA/CT-CDC-LC0062417/2021) and a list of gisaid accession numbers (e.g. EPI_ISL_2399048). The first file (genome names) can be placed in `config/keep.txt`, to list the genomes that will be included in the build. The second file (accession numbers) can be used to filter genomes directly from [gisaid.org](gisaid.org), as follows:
 
 ![alt text](https://github.com/grubaughlab/ncov/blob/master/gisaid_download.png?raw=true)
 
-1. Access gisaid.org, login with your credentials, and click on `Search`;
+1. Access [gisaid.org](gisaid.org). Login with your credentials, and click on `Search`, and `EpiCoV™`;
 2. Click on `Select`, paste the list of accession numbers and click on `OK`;
 3. Select `Sequences (FASTA)` and click on `Download`.
 
-The file downloaded via this search can be directly used as the input at `pre-analyses/gisaid_hcov-19.fasta`
+The file downloaded via this search can be directly used as the input `pre-analyses/gisaid_hcov-19.fasta`
 
 ## Running the pipeline
 
