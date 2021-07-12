@@ -56,7 +56,7 @@ ncov/
 │ └── remove.txt 		→ List of GISAID genomes to be removed prior to the run
 │
 ├── pre-analyses/
-│ ├── gisaid_hcov-19.fasta 	→ FASTA file with the latest genomes from GISAID
+│ ├── gisaid_hcov-19.fasta 	→ File with genomes from GISAID (a JSON file can also be used)
 │ ├── new_genomes.fasta 	→ FASTA file with the lab's newly sequenced genomes
 │ ├── metadata_nextstrain.tsv	→ nextstrain metadata file, downloaded from GISAID
 │ ├── COVID-19_sequencing.xlsx 	→ Custom lab metadata file
