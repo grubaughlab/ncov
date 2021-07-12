@@ -87,6 +87,7 @@ Notes:<br />
 ² The user will need credentials (login/password) to access and download this file from GISAID<br />
 ³/⁴ These Excel spreadsheet must have the following columns, named as shown below:<br />
 
+- Filter *→ include tags used to filter genomes, as set in [`rule filter_metadata`](https://github.com/grubaughlab/ncov/blob/master/Snakefile#L102)
 - Sample-ID *→ lab samples unique identifier, as described below*
 - Collection-date
 - Country
