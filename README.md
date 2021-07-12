@@ -98,7 +98,7 @@ Notes:<br />
 
 ### Downloading genome sequences
 
-The files `provision.json` and  `gisaid_hcov-19.fasta` contain genomic sequences provided by GISAID. This pipeline takes any of these two file formats as input. `provision.json` can be downloaded via an API provided by GISAID, which require special credentials (username and password, which can be requested via an application process). Contact GISAID Support <service@gisaid.org> for more information.
+The files `provision.json` and  `gisaid_hcov-19.fasta` contain genomic sequences provided by GISAID. This pipeline takes any of these two file formats as input. `provision.json` can be downloaded via an API provided by GISAID, which require special credentials (username and password, which can be requested via an application process). Contact GISAID Support \<service@gisaid.org\> for more information.
 
 The file `gisaid_hcov-19.fasta` can be generated via searches on gisaid.org. To do so, the user needs to provide a list of gisaid accession numbers, as follows:
 
