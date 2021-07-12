@@ -75,7 +75,7 @@ ncov/
 Files in the `pre-analyses` directory need to be downloaded from distinct sources, as shown below.
 |              File              |                                              Source                                             |
 |:------------------------------:|:-----------------------------------------------------------------------------------------------:|
-| gisaid_hcov-19.fasta |         Downloaded from GISAID (all complete genomes submitted from 2019-Dec-01)        |
+| gisaid_hcov-19.fasta<br />provision.json |         FASTA or JSON file downloaded from GISAID        |
 |        new_genomes.fasta¹       | Newly sequenced genomes, with headers formatted as ">Yale-XXX", downloaded from the Lab's Dropbox |
 | metadata_nextstrain.tsv² | File 'metadata.tsv' available on GISAID |
 |    GLab_SC2_sequencing_data.xlsx³    |                     Metadata spreadsheet downloaded from an internal Google Sheet                    |
@@ -93,6 +93,39 @@ Notes:<br />
 - Division (state)  *→ state name*
 - Location (county)  *→ city, town or any other local name*
 - Source *→ lab source of the viral samples*
+
+
+### Downloading genome sequences
+
+The files `provision.json` and  `gisaid_hcov-19.fasta` contain genomic sequences provided by GISAID. This pipeline takes any of these two file formats as input. `provision.json` can be downloaded via an API provided by GISAID, which require special credentials (username and password, which can be requested via an application process). Contact GISAID Support <service@gisaid.org> for more information.
+
+The file `gisaid_hcov-19.fasta` can be generated via searches on gisaid.org. To do so, the user needs to provide a list of gisaid accession numbers, as follows:
+
+1. If one needs, for example, to sample around 600 genomes of viruses belonging to lineages `B.1.1.7` (alpha variant) and `B.1.617.2` (delta variant), circulating in the US and the United Kingdom, between 2020-12-01 and 2021-06-30, having other US and European samples as contextual genomes, while ignoring genomes from California and Scotland, the following script can be used, provided a `--metadata` file listing all genomes on GISAID is provided:
+
+> genome_selector.py [-h] --metadata METADATA [--keep KEEP] [--remove REMOVE] --scheme SCHEME [--report REPORT]
+
+... where `--scheme` is a TSV file like the one below:
+
+|purpose|level        |name      |size|start     |end       |
+|-------|-------------|----------|----|----------|----------|
+|focus  |pango_lineage|B.1.1.7   |200 |2020-12-01|2021-06-30|
+|focus  |pango_lineage|B.1.617.2 |200 |2020-12-01|2021-06-30|
+|context|country      |USA       |100 |2020-12-01|2021-06-30|
+|context|region       |Europe    |100 |2020-12-01|2021-06-30|
+|ignore |division     |California|    |          |          |
+|ignore |division     |Scotland  |    |          |          |
+
+
+Among the outputs of `genome_selector.py` users will find text files containing a list of genome names (e.g. USA/CT-CDC-LC0062417/2021) and a list of gisaid accession numbers (e.g. EPI_ISL_2399048). The first file (genome names) can be placed at `config/keep.txt`, to list the genomes that will be included in the run. The second file (accession numbers) can be used to filter genomes directly from gisaid.org, as follows:
+
+![alt text](https://github.com/grubaughlab/ncov/blob/master/gisaid_download.png?raw=true)
+
+1. Access gisaid.org, login with your credentials, and click on `Search`;
+2. Click on `Select`, paste the list of accession numbers and click on `OK`;
+3. Select `Sequences (FASTA)` and click on `Download`.
+
+The file downloaded via this search can be directly used as the input at `pre-analyses/gisaid_hcov-19.fasta`
 
 ## Running the pipeline
 

@@ -1,4 +1,10 @@
 # -*- coding: utf-8 -*-
+#!/usr/bin/python
+
+# Created by: Anderson Brito
+# Email: andersonfbrito@gmail.com
+# Release date: 2020-03-24
+# Last update: 2021-07-12
 
 import pycountry_convert as pyCountry
 import pycountry
@@ -21,7 +27,6 @@ if __name__ == '__main__':
     geoscheme = args.geoscheme
     output = args.output
 
-    # path = '/Users/anderson/GLab Dropbox/Anderson Brito/projects/ncov/ncov_variants/nextstrain/run6_20210202_b117/ncov/'
     # metadata = path + 'pre-analyses/metadata_filtered.tsv'
     # geoscheme = path + 'config/geoscheme.tsv'
     # output = path + 'pre-analyses/metadata_geo.tsv'
