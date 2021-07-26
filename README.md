@@ -112,14 +112,15 @@ The file `gisaid_hcov-19.fasta` can be generated via searches on gisaid.org. To 
 |-------|-------------|----------|-------|----------|-----------|----------|----------|
 |focus  |pango_lineage|B.1.1.7   |country|USA       |200        |2020-12-01|2021-06-30|
 |focus  |pango_lineage|B.1.617.2 |country|United Kingdom|200        |2020-12-01|2021-06-30|
-|context|country      |USA       |       |          |100        |2020-12-01|2021-06-30|
+|context|country      |USA       |       |          |100        |2020-12-01|          |
+|context|country      |USA       |       |          |50        |          |2020-11-30|
 |context|region       |Europe    |       |          |100        |2020-12-01|2021-06-30|
 |ignore |division     |California|       |          |           |          |          |
 |ignore |division     |Scotland  |       |          |           |          |          |
 
 
 
-Among the outputs of `genome_selector.py` users will find text files containing a list of around 500 genome names (e.g. USA/CT-CDC-LC0062417/2021) and a list of gisaid accession numbers (e.g. EPI_ISL_2399048). The first file (with genome names) can be placed in `config/keep.txt`, to list the genomes that will be included in the build. If a file `provision.json` is available, the user can use that as the input sequence file, and that list will be used to retrieve the selected genomes. When the JSON file is not available, the second file (with accession numbers) can be used to filter genomes directly from [gisaid.org](https://www.gisaid.org/), as follows:
+Among the outputs of `genome_selector.py` users will find text files containing a list of around 550 genome names (e.g. USA/CT-CDC-LC0062417/2021) and a list of gisaid accession numbers (e.g. EPI_ISL_2399048). The first file (with genome names) can be placed in `config/keep.txt`, to list the genomes that will be included in the build. If a file `provision.json` is available, the user can use that as the input sequence file, and that list will be used to retrieve the selected genomes. When the JSON file is not available, the second file (with accession numbers) can be used to filter genomes directly from [gisaid.org](https://www.gisaid.org/), as follows:
 
 ![alt text](https://github.com/grubaughlab/ncov/blob/master/gisaid_download.png?raw=true)
 
