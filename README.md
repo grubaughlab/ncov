@@ -102,7 +102,7 @@ The files `provision.json` and  `gisaid_hcov-19.fasta` contain genomic sequences
 
 The file `gisaid_hcov-19.fasta` can be generated via searches on gisaid.org. To do so, the user needs to provide a list of gisaid accession numbers, as follows:
 
-1. If one needs, for example, to sample around 600 genomes of viruses belonging to lineages `B.1.1.7` (alpha variant) and `B.1.617.2` (delta variant), circulating in the US and the United Kingdom, between 2020-12-01 and 2021-06-30, having other US and European samples as contextual genomes, while ignoring genomes from California and Scotland, the following script can be used, provided a `--metadata` file listing all genomes on GISAID is available:
+* If one needs, for example, to sample around 600 genomes of viruses belonging to lineages `B.1.1.7` (alpha variant) and `B.1.617.2` (delta variant), circulating in the US and the United Kingdom, between 2020-12-01 and 2021-06-30, having other US and European samples as contextual genomes. Note that contextual genomes are requested, in the example below, from two time periods, and in different proportions: 50 genomes up to late November 2020, and 100 from December 2020 onwards. Also, the scheme is set up to ignore genomes from California and Scotland, which means that genomes from those locations will not be included in any instance (they are filtered out prior to the genome selection step). To reproduce the scheme above, the following script can be used, having a `--metadata` file listing genomes from GISAID that match those filtering categories:
 
 > genome_selector.py [-h] --metadata METADATA [--keep KEEP] [--remove REMOVE] --scheme SCHEME [--report REPORT]
 
@@ -112,8 +112,8 @@ The file `gisaid_hcov-19.fasta` can be generated via searches on gisaid.org. To 
 |-------|-------------|----------|-------|----------|-----------|----------|----------|
 |focus  |pango_lineage|B.1.1.7   |country|USA       |200        |2020-12-01|2021-06-30|
 |focus  |pango_lineage|B.1.617.2 |country|United Kingdom|200        |2020-12-01|2021-06-30|
-|context|country      |USA       |       |          |100        |2020-12-01|          |
 |context|country      |USA       |       |          |50        |          |2020-11-30|
+|context|country      |USA       |       |          |100        |2020-12-01|          |
 |context|region       |Europe    |       |          |100        |2020-12-01|2021-06-30|
 |ignore |division     |California|       |          |           |          |          |
 |ignore |division     |Scotland  |       |          |           |          |          |
