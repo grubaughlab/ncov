@@ -34,7 +34,8 @@ rule files:
 		clades = "config/clades.tsv",
 		auspice_config = "config/auspice_config.json",
 		dropped_strains = "config/dropped_strains.txt",
-		aligned = "config/aligned.fasta"
+		aligned = "config/aligned.fasta",
+		filt = "connecticut"
 
 
 files = rules.files.params
@@ -99,7 +100,7 @@ rule filter_metadata:
 		metadata1 = files.full_metadata,
 		metadata2 = rules.merge_metadata.output.merged_metadata
 	params:
-		filter = "connecticut"
+		filter = files.filt
 	output:
 		filtered_metadata = "pre-analyses/metadata_filtered.tsv",
 		sequences = "data/sequences.fasta"
@@ -124,6 +125,8 @@ rule geoscheme:
 	input:
 		filtered_metadata = rules.filter_metadata.output.filtered_metadata,
 		geoscheme = files.geoscheme
+	params:
+		filter = files.filt
 	output:
 		final_metadata = "data/metadata.tsv"
 	shell:
@@ -131,7 +134,8 @@ rule geoscheme:
 		python3 scripts/apply_geoscheme.py \
 			--metadata {input.filtered_metadata} \
 			--geoscheme {input.geoscheme} \
-			--output {output.final_metadata}
+			--output {output.final_metadata} \
+			--filter {params.filter}
 		"""
 
 
@@ -171,7 +175,8 @@ rule colours:
 		geoscheme = files.geoscheme,
 		colour_grid = files.colour_grid
 	params:
-		columns = "region country division location"
+		columns = "region country division location",
+		filt = files.filt
 	output:
 		colours = "config/colors.tsv"
 	shell:
@@ -182,7 +187,8 @@ rule colours:
 		--geoscheme {input.geoscheme} \
 		--grid {input.colour_grid} \
 		--columns {params.columns} \
-		--output {output.colours}
+		--output {output.colours} \
+		--filter {params.filt}
 		"""
 
 

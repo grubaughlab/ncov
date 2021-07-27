@@ -56,7 +56,6 @@ if __name__ == '__main__':
                 'B.1.617.2': 'Delta (B.1.617.2)',
                 'AY.1': 'Delta (AY.1)',
                 'AY.2': 'Delta (AY.2)',
-                'AY.3': 'Delta (AY.3)',
                 'B.1.525': 'Eta (B.1.525)',
                 'B.1.526': 'Iota (B.1.526)',
                 'B.1.617.1': 'Kappa (B.1.617.1)',
@@ -68,7 +67,8 @@ if __name__ == '__main__':
 
 
     # get ISO alpha3 country codes
-    isos = {}
+    isos =  {'US Virgin Islands':'VIR','Virgin Islands':'VIR','British Virgin Islands':'VGB','Curacao':'CUW','Northern Mariana Islands':'MNP',
+            'Sint Maarten':'MAF','St Eustatius':'BES'}
     def get_iso(country):
         global isos
         if country not in isos.keys():
