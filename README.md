@@ -33,7 +33,10 @@ cd 'your/directory/of/choice/ncov/config'
 conda env update --file nextstrain.yaml
 ```
 
-This command will install all necessary dependencies to run the pipeline.
+This command will install all necessary dependencies to run the pipeline, which can be activated by running:
+```
+conda activate nextstrain
+```
 
 
 ## Preparing the working directory
