@@ -1,10 +1,4 @@
 # coding=utf-8
-
-# Created by: Anderson Brito
-# Email: andersonfbrito@gmail.com
-# Release date: 2020-03-24
-# Last update: 2021-07-12
-
 import pycountry_convert as pyCountry
 import pandas as pd
 import argparse
@@ -25,6 +19,7 @@ if __name__ == '__main__':
     parser.add_argument("--grid", required=True, help="HTML file with HEX colour matrices")
     parser.add_argument("--columns", nargs='+', type=str,   help="list of columns with geographic information")
     parser.add_argument("--output", required=True, help="TSV file containing ordered HEX colours based on locations")
+    parser.add_argument("--filter", required=False, nargs='+', type=str,  help="List of filters for tagged rows in lab metadata")
     args = parser.parse_args()
 
     metadata = args.metadata
@@ -33,6 +28,7 @@ if __name__ == '__main__':
     grid = args.grid
     columns = args.columns
     output = args.output
+    filt = args.filter
 
     # path = '/Users/anderson/GLab Dropbox/Anderson Brito/projects/ncov/ncov_variants/nextstrain/runX_ncov_20210407_vocvoicolours/'
     # metadata = path + 'data/metadata.tsv'
@@ -44,14 +40,20 @@ if __name__ == '__main__':
 
 
     # pre-determined HEX colours and hues
-    force_colour = {'Connecticut': '#8FEECB', 'New York': '#19ae77', 'Canada': '#663300'}
-    force_hue = {'North America': 0}
+    print(filt)
+    if filt==['connecticut']:
+        force_colour = {'Connecticut': '#8FEECB', 'New York': '#19ae77', 'Canada': '#663300'}
+        force_hue = {'North America': 0}
+    if filt==['caribbean']:
+        force_colour = {'Puerto Rico': '#8FEECB', 'US Virgin Islands': '#19ae77', 'Dominican Republic': '#663300'}
+        force_hue = {'Caribbean': 0}
 
     # content to be exported as final result
     latlongs = {trait: {} for trait in columns}
 
     # get ISO alpha3 country codes
-    isos = {}
+    isos =  {'US Virgin Islands':'VIR','Virgin Islands':'VIR','British Virgin Islands':'VGB','Curacao':'CUW','Northern Mariana Islands':'MNP',
+            'Sint Maarten':'MAF','St Eustatius':'BES'}
     def get_iso(country):
         global isos
         if country not in isos.keys():

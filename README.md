@@ -33,7 +33,10 @@ cd 'your/directory/of/choice/ncov/config'
 conda env update --file nextstrain.yaml
 ```
 
-This command will install all necessary dependencies to run the pipeline.
+This command will install all necessary dependencies to run the pipeline, which can be activated by running:
+```
+conda activate nextstrain
+```
 
 
 ## Preparing the working directory
@@ -102,7 +105,7 @@ The files `provision.json` and  `gisaid_hcov-19.fasta` contain genomic sequences
 
 The file `gisaid_hcov-19.fasta` can be generated via searches on gisaid.org. To do so, the user needs to provide a list of gisaid accession numbers, as follows:
 
-* If one needs, for example, to sample around 600 genomes of viruses belonging to lineages `B.1.1.7` (alpha variant) and `B.1.617.2` (delta variant), circulating in the US and the United Kingdom, between 2020-12-01 and 2021-06-30, having other US and European samples as contextual genomes. Note that contextual genomes are requested, in the example below, from two time periods, and in different proportions: 50 genomes up to late November 2020, and 100 from December 2020 onwards. Also, the scheme is set up to ignore genomes from California and Scotland, which means that genomes from those locations will not be included in any instance (they are filtered out prior to the genome selection step). To reproduce the scheme above, the following script can be used, having a `--metadata` file listing genomes from GISAID that match those filtering categories:
+* The table below illustrates a scheme to sample around 600 genomes of viruses belonging to lineages `B.1.1.7` (alpha variant) and `B.1.617.2` (delta variant), circulating in the US and the United Kingdom, between 2020-12-01 and 2021-06-30, having other US and European samples as contextual genomes. Note that contextual genomes are selected from two time periods, and in different proportions: 50 genomes up to late November 2020, and 100 from December 2020 onwards. Also, the scheme is set up to ignore genomes from California and Scotland, which means that genomes from those locations will not be included in any instance (they are filtered out prior to the genome selection step). To reproduce the scheme above, the following script can be used, having a `--metadata` file listing genomes from GISAID that match those filtering categories:
 
 > genome_selector.py [-h] --metadata METADATA [--keep KEEP] [--remove REMOVE] --scheme SCHEME [--report REPORT]
 
