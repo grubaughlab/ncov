@@ -61,7 +61,7 @@ if __name__ == '__main__':
     keep_sequences = []
     for id in open(keep, "r").readlines():
         if id[0] not in ["#", "\n"]:
-            id = id.strip()
+            id = id.strip().replace('hCoV-19/', '')
             if id not in newly_sequenced:
                 if id not in keep_sequences:
                     keep_sequences.append(id)
