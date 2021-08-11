@@ -3,8 +3,7 @@
 # Created by: Anderson Brito
 # Email: andersonfbrito@gmail.com
 # Release date: 2020-03-24
-# Last update: 2021-07-12
-
+# Last update: 2021-08-10
 
 import argparse
 from Bio import SeqIO
