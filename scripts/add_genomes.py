@@ -3,8 +3,7 @@
 # Created by: Anderson Brito
 # Email: andersonfbrito@gmail.com
 # Release date: 2020-03-24
-# Last update: 2021-07-12
-
+# Last update: 2021-08-10
 
 import argparse
 from Bio import SeqIO
@@ -62,7 +61,7 @@ if __name__ == '__main__':
     keep_sequences = []
     for id in open(keep, "r").readlines():
         if id[0] not in ["#", "\n"]:
-            id = id.strip()
+            id = id.strip().replace('hCoV-19/', '')
             if id not in newly_sequenced:
                 if id not in keep_sequences:
                     keep_sequences.append(id)

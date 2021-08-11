@@ -3,7 +3,7 @@
 # Created by: Anderson Brito
 # Email: andersonfbrito@gmail.com
 # Release date: 2020-03-24
-# Last update: 2021-07-07
+# Last update: 2021-08-10
 
 
 import pycountry_convert as pyCountry
@@ -68,6 +68,7 @@ if __name__ == '__main__':
 
 
     # get ISO alpha3 country codes
+
     isos =  {'US Virgin Islands':'VIR','Virgin Islands':'VIR','British Virgin Islands':'VGB','Curacao':'CUW','Northern Mariana Islands':'MNP',
             'Sint Maarten':'MAF','St Eustatius':'BES'}
     def get_iso(country):
@@ -156,6 +157,7 @@ if __name__ == '__main__':
 
     # nextstrain metadata
     dfN = pd.read_csv(metadata1, encoding='utf-8', sep='\t', dtype='str')
+    dfN['strain'] = dfN['strain'].replace('hCoV-19/', '')
     dfN.insert(4, 'iso', '')
     dfN.insert(1, 'category', '')
     dfN.fillna('', inplace=True)
@@ -222,7 +224,7 @@ if __name__ == '__main__':
     metadata_issues = {}
     # process metadata from excel sheet
     for idx, row in dfL.iterrows():
-        id = dfL.loc[idx, 'id']
+        id = dfL.loc[idx, 'id'].replace('hCoV-19/', '')
         if id in sequences:
             dict_row = {}
             for col in list_columns:
@@ -243,7 +245,7 @@ if __name__ == '__main__':
                 dict_row['location'] = dfL.loc[idx, 'location']
 
             collection_date = ''
-            if len(str(dict_row['date'])) > 1:
+            if len(str(dict_row['date'])) > 1 and 'X' not in dict_row['date']:
                 collection_date = dict_row['date'].split(' ')[0].replace('.', '-').replace('/', '-')
                 dict_row['date'] = collection_date
                 # check is date is appropriate: not from the 'future', not older than 'min_date'
@@ -295,7 +297,7 @@ if __name__ == '__main__':
             dict_row['category'] = variant_category(lineage)
 
             # assign epiweek
-            if len(dict_row['date']) > 0:
+            if len(dict_row['date']) > 0 and 'X' not in dict_row['date']:
                 dict_row['epiweek'] = get_epiweeks(collection_date)
             else:
                 dict_row['epiweek'] = ''
@@ -310,7 +312,7 @@ if __name__ == '__main__':
     # process metadata from TSV
     dfN = dfN[dfN['strain'].isin(sequences.keys())]
     for idx, row in dfN.iterrows():
-        strain = dfN.loc[idx, 'strain']
+        strain = dfN.loc[idx, 'strain'].replace('hCoV-19/', '')
         if strain in sequences:
             if strain in outputDF['strain'].to_list():
                 continue
