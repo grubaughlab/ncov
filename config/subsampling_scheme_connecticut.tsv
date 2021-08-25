@@ -1,5 +1,5 @@
 purpose	filter	value	filter2	value2	sample_size	start	end
-focus	division	Connecticut			9999	2021-05-01	
+focus	division	Connecticut			9999	2021-05-25	
 context	pango_lineage	B.1.617.2			10		2021-04-30
 context	pango_lineage	AY.1			10		2021-04-30
 context	pango_lineage	AY.2			10		2021-04-30
