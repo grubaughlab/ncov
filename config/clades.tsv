@@ -46,9 +46,14 @@ Epsilon (B.1.427/B.1.429)	S	152	C
 Epsilon (B.1.427/B.1.429)	S	614	G
 Epsilon (B.1.427/B.1.429)	N	205	I
 
-B.1.617	nuc	210	T
-B.1.617	nuc	27638	C
-B.1.617	ORF7a	82	A
+Delta (B.1.617.2)	S	681	R
+Delta (B.1.617.2)	N	63	G
+Delta (B.1.617.2)	S	19	R
+Delta (B.1.617.2)	ORF3a	26	L
+
+Mu (B.1.621)	N	205	I
+Mu (B.1.621)	ORF1a	1055	A
+Mu (B.1.621)	ORF1b	1342	S
 
 B.1.617.3	N	67	S
 B.1.617.3	ORF1a	2344	V
