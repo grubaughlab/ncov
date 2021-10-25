@@ -93,6 +93,7 @@ if __name__ == '__main__':
                 'AY.35': 'Delta (AY.35)',
                 'AY.36': 'Delta (AY.36)',
                 'AY.37': 'Delta (AY.37)',
+                'AY.39': 'Delta (AY.39)',
                 'B.1.525': 'Eta (B.1.525)',
                 'B.1.526': 'Iota (B.1.526)',
                 'B.1.617.1': 'Kappa (B.1.617.1)',
