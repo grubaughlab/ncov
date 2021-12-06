@@ -2,62 +2,39 @@ clade	gene	site	alt
 A	ORF8	84	S
 
 B.1	ORF1b	314	L
-B.2	ORF3a	251	V
 
-Alpha (B.1.1.7)	ORF1a	1001	I
-Alpha (B.1.1.7)	ORF1a	2230	T
-Alpha (B.1.1.7)	S	982	A
+Alpha	ORF1a	1001	I
+Alpha	ORF1a	2230	T
+Alpha	S	982	A
 
-Beta (B.1.351)	ORF1a	1655	N
-Beta (B.1.351)	ORF1a	3353	R
+Gamma	N	80	R
+Gamma	ORF1a	1188	L
+Gamma	ORF1b	1264	D
+Gamma	S	501	Y
 
-Gamma (P.1)	N	80	R
-Gamma (P.1)	ORF1a	1188	L
-Gamma (P.1)	ORF1b	1264	D
-Gamma (P.1)	S	501	Y
+Delta	M	82	T
+Delta	N	63	G
+Delta	ORF7a	120	I
+Delta	ORF9b	60	A
+Delta	S	19	R
+Delta	S	681	R
+Delta	N	63	G
+Delta	S	19	R
+Delta	ORF3a	26	L
 
-Delta (B.1.617.2)	M	82	T
-Delta (B.1.617.2)	N	63	G
-Delta (B.1.617.2)	ORF7a	120	I
-Delta (B.1.617.2)	ORF9b	60	A
-Delta (B.1.617.2)	S	19	R
+Iota	ORF8	11	I
+Iota	S	95	I
+Iota	nuc	21846	T
 
-Eta (B.1.525)	E	21	F
-Eta (B.1.525)	N	12	G
-Eta (B.1.525)	M	82	T
+Mu	N	205	I
+Mu	ORF1a	1055	A
+Mu	ORF1b	1342	S
 
-Iota (B.1.526)	ORF8	11	I
-Iota (B.1.526)	S	95	I
-Iota (B.1.526)	nuc	21846	T
-
-Kappa (B.1.617.1)	ORF1a	1567	I
-Kappa (B.1.617.1)	ORF1b	1129	C
-Kappa (B.1.617.1)	ORF1b	2310	R
-Kappa (B.1.617.1)	ORF1b	2312	A
-
-Lambda (C.37)	S	452	Q
-Lambda (C.37)	S	490	S
-Lambda (C.37)	nuc	23031	C
-
-Epsilon (B.1.427/B.1.429)	ORF1a	265	I
-Epsilon (B.1.427/B.1.429)	ORF1a	4295	V
-Epsilon (B.1.427/B.1.429)	S	13	I
-Epsilon (B.1.427/B.1.429)	S	152	C
-Epsilon (B.1.427/B.1.429)	S	614	G
-Epsilon (B.1.427/B.1.429)	N	205	I
-
-Delta (B.1.617.2)	S	681	R
-Delta (B.1.617.2)	N	63	G
-Delta (B.1.617.2)	S	19	R
-Delta (B.1.617.2)	ORF3a	26	L
-
-Mu (B.1.621)	N	205	I
-Mu (B.1.621)	ORF1a	1055	A
-Mu (B.1.621)	ORF1b	1342	S
-
-B.1.617.3	N	67	S
-B.1.617.3	ORF1a	2344	V
-B.1.617.3	ORF1a	2648	I
-B.1.617.3	ORF8	26	I
-
-
+Omicron	E	9	I
+Omicron	S	67	V
+Omicron	S	375	F
+Omicron	S	954	H
+Omicron	ORF1a	856	R
+Omicron	ORF1a	2710	T
+Omicron	ORF1a	3395	H
+Omicron	ORF1a	3758	V
