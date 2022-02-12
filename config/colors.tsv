@@ -1,0 +1,540 @@
+region	Oceania	#D270B2
+region	Eastern Asia	#7A1F6B
+region	Southeastern Asia	#95479C
+region	Southern Asia	#B070CD
+region	Western Asia	#CC99FF
+region	Northern Europe	#2E1F7A
+region	Western Europe	#5164A6
+region	Eastern Europe	#75A9D2
+region	Southern Europe	#99EEFF
+region	Northern Africa	#2E7A1F
+region	Western Africa	#5E9B3D
+region	Middle Africa	#8EBC5C
+region	Eastern Africa	#BEDD7A
+region	Southern Africa	#EEFF99
+region	Central America	#7A7A1F
+region	South America	#7A5B1F
+region	Caribbean	#7A3D1F
+region	North America	#7A1F1F
+
+country	Australia	#7A1F5C
+country	New Zealand	#FF99DD
+country	Hong Kong	#7A1F6B
+country	China	#A64796
+country	Japan	#D270C2
+country	South Korea	#FF99EE
+country	Indonesia	#7A1F7A
+country	Singapore	#9B3D9B
+country	Philippines	#BC5CBC
+country	Thailand	#DD7ADD
+country	Malaysia	#FF99FF
+country	India	#5C1F7A
+country	Sri Lanka	#DD99FF
+country	Oman	#4C1F7A
+country	United Arab Emirates	#613390
+country	Qatar	#7647A6
+country	Saudi Arabia	#8C5CBC
+country	Jordan	#A170D2
+country	Israel	#B684E8
+country	Turkey	#CC99FF
+country	Ireland	#2E1F7A
+country	United Kingdom	#3F308D
+country	Denmark	#5141A0
+country	Estonia	#6353B3
+country	Sweden	#7464C6
+country	Norway	#8676D9
+country	Finland	#9887EC
+country	Iceland	#AA99FF
+country	France	#1F2E7A
+country	Switzerland	#374694
+country	Austria	#4F5FAF
+country	Luxembourg	#6878C9
+country	Belgium	#8091E4
+country	Germany	#99AAFF
+country	Romania	#1F4C7A
+country	Czech Republic	#4776A6
+country	Poland	#70A1D2
+country	Russia	#99CCFF
+country	Greece	#1F6B7A
+country	Spain	#3D8B9B
+country	Portugal	#5CACBC
+country	Italy	#7ACDDD
+country	Slovenia	#99EEFF
+country	Sudan	#80D270
+country	Burkina Faso	#3D7A1F
+country	Senegal	#569437
+country	Ghana	#6FAF4F
+country	Togo	#88C968
+country	Benin	#A1E480
+country	Nigeria	#BBFF99
+country	Angola	#A1D270
+country	Rwanda	#5C7A1F
+country	Malawi	#719033
+country	Zambia	#87A647
+country	Zimbabwe	#9CBC5C
+country	Mozambique	#B2D270
+country	Kenya	#C7E884
+country	Djibouti	#DDFF99
+country	Botswana	#6B7A1F
+country	South Africa	#EEFF99
+country	Mexico	#7A7A1F
+country	Panama	#FFFF99
+country	Brazil	#7A6B1F
+country	Chile	#A69647
+country	Argentina	#D2C270
+country	Peru	#FFEE99
+country	Trinidad and Tobago	#7A4C1F
+country	US Virgin Islands	#A67647
+country	Puerto Rico	#D2A170
+country	Netherlands	#FFCC99
+country	USA-Southwest	#7A1F1F
+country	USA-Southeast	#8D3030
+country	USA	#A04141
+country	USA-West	#B35353
+country	USA-Northeast	#C66464
+country	USA-Midwest	#D97676
+country	North America	#EC8787
+country	Canada	#663300
+
+division	Australia	#7A1F5C
+division	New Zealand	#FF99DD
+division	Hong Kong	#7A1F6B
+division	China	#A64796
+division	Japan	#D270C2
+division	South Korea	#FF99EE
+division	Indonesia	#7A1F7A
+division	Singapore	#9B3D9B
+division	Philippines	#BC5CBC
+division	Thailand	#DD7ADD
+division	Malaysia	#FF99FF
+division	India	#5C1F7A
+division	Sri Lanka	#DD99FF
+division	Oman	#4C1F7A
+division	United Arab Emirates	#613390
+division	Qatar	#7647A6
+division	Saudi Arabia	#8C5CBC
+division	Jordan	#A170D2
+division	Israel	#B684E8
+division	Turkey	#CC99FF
+division	Ireland	#2E1F7A
+division	Wales	#3B2C88
+division	England	#493A97
+division	Scotland	#5747A6
+division	Denmark	#6555B5
+division	Estonia	#7262C3
+division	Sweden	#8070D2
+division	Norway	#8E7DE1
+division	Finland	#9C8BF0
+division	Iceland	#AA99FF
+division	France	#1F2E7A
+division	Switzerland	#374694
+division	Austria	#4F5FAF
+division	Luxembourg	#6878C9
+division	Belgium	#8091E4
+division	Germany	#99AAFF
+division	Romania	#1F4C7A
+division	Czech Republic	#4776A6
+division	Poland	#70A1D2
+division	Russia	#99CCFF
+division	Greece	#1F6B7A
+division	Spain	#3D8B9B
+division	Portugal	#5CACBC
+division	Italy	#7ACDDD
+division	Slovenia	#99EEFF
+division	Sudan	#6CBC5C
+division	Burkina Faso	#3D7A1F
+division	Senegal	#569437
+division	Ghana	#6FAF4F
+division	Togo	#88C968
+division	Benin	#A1E480
+division	Nigeria	#BBFF99
+division	Angola	#8CBC5C
+division	Rwanda	#5C7A1F
+division	Malawi	#719033
+division	Zambia	#87A647
+division	Zimbabwe	#9CBC5C
+division	Mozambique	#B2D270
+division	Kenya	#C7E884
+division	Djibouti	#DDFF99
+division	Botswana	#6B7A1F
+division	South Africa	#EEFF99
+division	Mexico	#7A7A1F
+division	Panama	#FFFF99
+division	Brazil	#7A6B1F
+division	Chile	#A69647
+division	Argentina	#D2C270
+division	Peru	#FFEE99
+division	Trinidad and Tobago	#7A4C1F
+division	US Virgin Islands	#A67647
+division	Puerto Rico	#D2A170
+division	Netherlands	#FFCC99
+division	Texas	#7A1F1F
+division	New Mexico	#7C2121
+division	Arizona	#7F2424
+division	Florida	#822626
+division	South Carolina	#852929
+division	Georgia	#872B2B
+division	Arkansas	#8A2E2E
+division	Tennessee	#8D3030
+division	North Carolina	#903333
+division	Virginia	#923535
+division	Kentucky	#953838
+division	Hawaii	#983A3A
+division	California	#9B3D3D
+division	Utah	#9E4040
+division	Colorado	#A04242
+division	Nevada	#A34545
+division	Wyoming	#A64747
+division	Idaho	#A94A4A
+division	Oregon	#AB4C4C
+division	Washington	#AE4F4F
+division	Alaska	#B15151
+division	Delaware	#B45454
+division	Washington DC	#B65656
+division	Maryland	#B95959
+division	Pennsylvania	#BC5C5C
+division	New Jersey	#BF5E5E
+division	Connecticut	#8FEECB
+division	Rhode Island	#C46363
+division	Massachusetts	#C76666
+division	New York	#19AE77
+division	New Hampshire	#CD6B6B
+division	Vermont	#CF6D6D
+division	Maine	#D27070
+division	Kansas	#D57272
+division	Indiana	#D87575
+division	Nebraska	#DA7777
+division	Illinois	#DD7A7A
+division	Ohio	#E07D7D
+division	Michigan	#E37F7F
+division	Wisconsin	#E68282
+division	Minnesota	#E88484
+division	USA	#EB8787
+division	Nova Scotia	#EE8989
+division	New Brunswick	#F18C8C
+division	Ontario	#F38E8E
+division	Quebec	#F69191
+division	Alberta	#F99393
+division	British Columbia	#FC9696
+division	Manitoba	#FF9999
+
+location	Australia	#7A1F5C
+location	New Zealand	#FF99DD
+location	Hong Kong	#7A1F6B
+location	China	#A64796
+location	Japan	#D270C2
+location	South Korea	#FF99EE
+location	Indonesia	#7A1F7A
+location	Singapore	#9B3D9B
+location	Philippines	#BC5CBC
+location	Thailand	#DD7ADD
+location	Malaysia	#FF99FF
+location	India	#5C1F7A
+location	Sri Lanka	#DD99FF
+location	Oman	#4C1F7A
+location	United Arab Emirates	#613390
+location	Qatar	#7647A6
+location	Saudi Arabia	#8C5CBC
+location	Jordan	#A170D2
+location	Israel	#B684E8
+location	Turkey	#CC99FF
+location	Ireland	#2E1F7A
+location	Wales	#3B2C88
+location	England	#493A97
+location	Scotland	#5747A6
+location	Denmark	#6555B5
+location	Estonia	#7262C3
+location	Sweden	#8070D2
+location	Norway	#8E7DE1
+location	Finland	#9C8BF0
+location	Iceland	#AA99FF
+location	France	#1F2E7A
+location	Switzerland	#374694
+location	Austria	#4F5FAF
+location	Luxembourg	#6878C9
+location	Belgium	#8091E4
+location	Germany	#99AAFF
+location	Romania	#1F4C7A
+location	Czech Republic	#4776A6
+location	Poland	#70A1D2
+location	Russia	#99CCFF
+location	Greece	#1F6B7A
+location	Spain	#3D8B9B
+location	Portugal	#5CACBC
+location	Italy	#7ACDDD
+location	Slovenia	#99EEFF
+location	Sudan	#6CBC5C
+location	Burkina Faso	#3D7A1F
+location	Senegal	#569437
+location	Ghana	#6FAF4F
+location	Togo	#88C968
+location	Benin	#A1E480
+location	Nigeria	#BBFF99
+location	Angola	#8CBC5C
+location	Rwanda	#5C7A1F
+location	Malawi	#719033
+location	Zambia	#87A647
+location	Zimbabwe	#9CBC5C
+location	Mozambique	#B2D270
+location	Kenya	#C7E884
+location	Djibouti	#DDFF99
+location	Botswana	#6B7A1F
+location	South Africa	#EEFF99
+location	Mexico	#7A7A1F
+location	Panama	#FFFF99
+location	Brazil	#7A6B1F
+location	Chile	#A69647
+location	Argentina	#D2C270
+location	Peru	#FFEE99
+location	Trinidad and Tobago	#7A4C1F
+location	US Virgin Islands	#A67647
+location	Puerto Rico	#D2A170
+location	Netherlands	#FFCC99
+location	Texas	#7A1F1F
+location	New Mexico	#7B2020
+location	Arizona	#7D2121
+location	Florida	#7E2323
+location	South Carolina	#802424
+location	Georgia	#812525
+location	Arkansas	#832727
+location	Tennessee	#842828
+location	North Carolina	#862A2A
+location	Virginia	#872B2B
+location	Kentucky	#892C2C
+location	Hawaii	#8A2E2E
+location	California	#8C2F2F
+location	Utah	#8D3131
+location	Colorado	#8F3232
+location	Nevada	#903333
+location	Wyoming	#923535
+location	Idaho	#933636
+location	Oregon	#953737
+location	Washington	#963939
+location	Alaska	#983A3A
+location	Delaware	#993C3C
+location	Washington DC	#9B3D3D
+location	Maryland	#9C3E3E
+location	Pennsylvania	#9E4040
+location	New Jersey	#9F4141
+location	Fairfield	#A14343
+location	Westchester	#A24444
+location	Fairfield  CT	#A44545
+location	New Haven	#A54747
+location	New Haven 	#A74848
+location	New London	#A84949
+location	Middlesex  CT	#AA4B4B
+location	Middlesex	#AB4C4C
+location	Meriden	#AD4E4E
+location	New London 	#AE4F4F
+location	Windham 	#B05050
+location	Windham	#B15252
+location	Tolland 	#B35353
+location	Litchfield	#B45555
+location	Hartford 	#B65656
+location	Hartford	#B75757
+location	Tolland	#B95959
+location	Litchfield 	#BA5A5A
+location	Rhode Island	#BC5C5C
+location	Barnstable	#BE5D5D
+location	Bristol	#BF5E5E
+location	Plymouth	#C16060
+location	Hampden	#C26161
+location	Norfolk	#C46262
+location	Berkshire	#C56464
+location	Worcester	#C76565
+location	Suffolk	#C86767
+location	Suffolk  MA	#CA6868
+location	Richmond	#CB6969
+location	Kings  NY	#CD6B6B
+location	Nassau	#CE6C6C
+location	New York 	#D06E6E
+location	Nassau  NY	#D16F6F
+location	Queens 	#D37070
+location	Queens	#D47272
+location	Bronx	#D67373
+location	Bronx 	#D77474
+location	Westchester 	#D97676
+location	Suffolk  NY	#DA7777
+location	Clinton  NY	#DC7979
+location	Rockland	#DD7A7A
+location	Dutchess	#DF7B7B
+location	New York City	#E07D7D
+location	Kings	#E27E7E
+location	New York	#E38080
+location	Ontario 	#E58181
+location	Putnam	#E68282
+location	Grafton	#E88484
+location	Kansas	#E98585
+location	Indiana	#EB8686
+location	Nebraska	#EC8888
+location	Illinois	#EE8989
+location	Ohio	#EF8B8B
+location	Michigan	#F18C8C
+location	Wisconsin	#F28D8D
+location	Minnesota	#F48F8F
+location	Nova Scotia	#F59090
+location	New Brunswick	#F79292
+location	Ontario	#F89393
+location	Quebec	#FA9494
+location	Alberta	#FB9696
+location	British Columbia	#FD9797
+location	Manitoba	#FF9999
+
+us_region	Global	#CCCCCC
+us_region	Europe	#666666
+us_region	Maryland	#5C1F7A
+us_region	Delaware	#662985
+us_region	Washington DC	#713390
+us_region	District of Columbia	#7C3D9B
+us_region	New York	#19AE77
+us_region	New Jersey	#9151B1
+us_region	Pennsylvania	#9C5CBC
+us_region	Vermont	#A766C7
+us_region	New Hampshire	#B270D2
+us_region	Maine	#BC7ADD
+us_region	Massachusetts	#C784E8
+us_region	Connecticut	#8FEECB
+us_region	Rhode Island	#DD99FF
+us_region	North Dakota	#1F7A3D
+us_region	South Dakota	#2A8648
+us_region	Minnesota	#359253
+us_region	Nebraska	#409E5F
+us_region	Iowa	#4BAA6A
+us_region	Kansas	#56B676
+us_region	Missouri	#61C281
+us_region	Wisconsin	#6CCE8D
+us_region	Michigan	#77DA98
+us_region	Illinois	#82E6A4
+us_region	Indiana	#8DF2AF
+us_region	Ohio	#99FFBB
+us_region	Arizona	#7A6B1F
+us_region	New Mexico	#A69647
+us_region	Texas	#D2C270
+us_region	Oklahoma	#FFEE99
+us_region	Arkansas	#1F4C7A
+us_region	Louisiana	#2A5786
+us_region	Kentucky	#356392
+us_region	Tennessee	#406E9E
+us_region	Mississippi	#4B7AAA
+us_region	Alabama	#5686B6
+us_region	West Virginia	#6191C2
+us_region	Virginia	#6C9DCE
+us_region	North Carolina	#77A9DA
+us_region	South Carolina	#82B4E6
+us_region	Georgia	#8DC0F2
+us_region	Florida	#99CCFF
+us_region	Hawaii	#7A2E1F
+us_region	Alaska	#873A2B
+us_region	Washington	#944637
+us_region	Oregon	#A15343
+us_region	California	#AF5F4F
+us_region	Idaho	#BC6C5C
+us_region	Montana	#C97868
+us_region	Wyoming	#D78474
+us_region	Nevada	#E49180
+us_region	Utah	#F19D8C
+us_region	Colorado	#FFAA99
+
+category	Alpha (B.1.1.7)	#620000
+category	Beta (B.1.351)	#690000
+category	Beta (B.1.351.2)	#6F0000
+category	Beta (B.1.351.3)	#750000
+category	Delta (AY.1)	#7C0000
+category	Delta (AY.10)	#820000
+category	Delta (AY.100)	#880000
+category	Delta (AY.103)	#8F0000
+category	Delta (AY.105)	#980000
+category	Delta (AY.107)	#9F0000
+category	Delta (AY.109)	#A50200
+category	Delta (AY.11)	#AF0A00
+category	Delta (AY.111)	#B20F00
+category	Delta (AY.112)	#B21400
+category	Delta (AY.113)	#B21A00
+category	Delta (AY.114)	#B22100
+category	Delta (AY.116.1)	#B22700
+category	Delta (AY.117)	#B22C00
+category	Delta (AY.118)	#B23100
+category	Delta (AY.119)	#B23600
+category	Delta (AY.12)	#B23B00
+category	Delta (AY.120)	#B24000
+category	Delta (AY.120.1)	#B24800
+category	Delta (AY.121)	#B25000
+category	Delta (AY.121.1)	#B25500
+category	Delta (AY.122)	#B25A00
+category	Delta (AY.124)	#B26000
+category	Delta (AY.125)	#B26500
+category	Delta (AY.126)	#B26A00
+category	Delta (AY.127)	#B26F00
+category	Delta (AY.13)	#B27400
+category	Delta (AY.14)	#B27C00
+category	Delta (AY.15)	#B28100
+category	Delta (AY.16)	#B28600
+category	Delta (AY.19)	#B28E00
+category	Delta (AY.2)	#B29300
+category	Delta (AY.20)	#B29900
+category	Delta (AY.23)	#B29E00
+category	Delta (AY.24)	#B1A600
+category	Delta (AY.25)	#ADAB00
+category	Delta (AY.26)	#A8B003
+category	Delta (AY.27)	#A4B208
+category	Delta (AY.29)	#9FB20C
+category	Delta (AY.3)	#9BB211
+category	Delta (AY.3.1)	#96B216
+category	Delta (AY.30)	#8FB21C
+category	Delta (AY.32)	#89B223
+category	Delta (AY.33)	#84B228
+category	Delta (AY.34)	#80B22C
+category	Delta (AY.35)	#7BB231
+category	Delta (AY.36)	#77B235
+category	Delta (AY.37)	#72B23A
+category	Delta (AY.39)	#6EB23E
+category	Delta (AY.39.1)	#69B243
+category	Delta (AY.39.2)	#62B249
+category	Delta (AY.4)	#5EB24E
+category	Delta (AY.4.5)	#57B255
+category	Delta (AY.42)	#52B259
+category	Delta (AY.43)	#4EB25E
+category	Delta (AY.44)	#49B262
+category	Delta (AY.45)	#45B267
+category	Delta (AY.46)	#3EB26E
+category	Delta (AY.46.1)	#3AB272
+category	Delta (AY.46.2)	#35B277
+category	Delta (AY.46.4)	#31B27B
+category	Delta (AY.46.6)	#2CB280
+category	Delta (AY.47)	#28B284
+category	Delta (AY.5)	#21B28B
+category	Delta (AY.5.2)	#1CB28F
+category	Delta (AY.5.3)	#16B296
+category	Delta (AY.53)	#11B29B
+category	Delta (AY.54)	#0CB09F
+category	Delta (AY.56)	#08ABA4
+category	Delta (AY.6)	#03A5A8
+category	Delta (AY.61)	#009FAD
+category	Delta (AY.69)	#009AB1
+category	Delta (AY.7.1)	#0094B2
+category	Delta (AY.75)	#008CB2
+category	Delta (AY.76)	#0083B2
+category	Delta (AY.77)	#007EB2
+category	Delta (AY.87)	#0078B2
+category	Delta (AY.9)	#0073B2
+category	Delta (AY.90)	#006DB2
+category	Delta (AY.92)	#0067B2
+category	Delta (AY.93)	#005FB2
+category	Delta (AY.98)	#0059B2
+category	Delta (AY.98.1)	#0054B2
+category	Delta (AY.99.2)	#004EB2
+category	Delta (B.1.617.2)	#0049B2
+category	Epsilon (B.1.427/B.1.429)	#0040B2
+category	Eta (B.1.525)	#003BB2
+category	Gamma (P.1)	#0035B2
+category	Gamma (P.1.1)	#002DB2
+category	Iota (B.1.526)	#0027B2
+category	Kappa (B.1.617.1)	#0021B2
+category	Lambda (C.37)	#001CB2
+category	Mu (B.1.621)	#0016B2
+category	Mu (B.1.621.1)	#0011B2
+category	Omicron (BA.1)	#000BB2
+category	Omicron (BA.1.1)	#0005B2
+category	Omicron (BA.2)	#0000B2
+category	Other variants	#808080
+

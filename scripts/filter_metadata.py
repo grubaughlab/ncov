@@ -217,7 +217,12 @@ if __name__ == '__main__':
                 'AY.123': 'Delta (AY.123)',
                 'AY.124': 'Delta (AY.124)', 
                 'AY.125': 'Delta (AY.125)',
-                'AY.126': 'Delta (AY.126)',                                                                                                                                         
+                'AY.126': 'Delta (AY.126)',
+                'AY.127': 'Delta (AY.127)',
+                'AY.127.1': 'Delta (AY.127.1)',
+                'AY.128': 'Delta (AY.128)',
+                'AY.129': 'Delta (AY.129)',
+                'AY.130': 'Delta (AY.130)',                                                                                                                                         
                 'B.1.525': 'Eta (B.1.525)',
                 'B.1.526': 'Iota (B.1.526)',
                 'B.1.617.1': 'Kappa (B.1.617.1)',
@@ -227,7 +232,8 @@ if __name__ == '__main__':
                 'P.2': 'Zeta (P.2)',
                 'B.1.621': 'Mu (B.1.621)',
                 'B.1.621.1': 'Mu (B.1.621.1)',
-                'B.1.1.529': 'Omicron (B.1.1.529)'
+                'BA.1': 'Omicron (BA.1)',
+                'BA.2': 'Omicron (BA.2)'
                 }
 
 

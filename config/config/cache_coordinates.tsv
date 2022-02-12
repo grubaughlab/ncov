@@ -154,12 +154,6 @@ country	Reunion	-21.114444	55.5325
 country	Mayotte	-12.843056	45.138333
 country	Wallis and Futuna	-13.283333	-176.183333
 country	Grenada	12.1360374	-61.6904045
-country	Benin	9.5293472	2.2584408
-country	Burkina Faso	12.0753083	-1.6880314
-country	Djibouti	11.8145966	42.8453061
-country	Estonia	58.7523778	25.3319078
-country	Rwanda	-1.9646631	30.0644358
-country	Sudan	14.5844444	29.4917691
 
 division	Connecticut	41.6500201	-72.7342163
 division	New Jersey	40.0757384	-74.4041622
@@ -398,12 +392,6 @@ division	Réunion	-21.130737949999997	55.536480112992315
 division	Sint Eustatius	17.4865252	-62.9653116
 division	Podravska	46.4809178	15.745088519392077
 division	Turks and Caicos	21.7214683	-71.6201783
-division	Benin	9.5293472	2.2584408
-division	Burkina Faso	12.0753083	-1.6880314
-division	Djibouti	11.8145966	42.8453061
-division	Estonia	58.7523778	25.3319078
-division	Rwanda	-1.9646631	30.0644358
-division	Sudan	14.5844444	29.4917691
 
 location	Amston-Mansfield	41.74139	-72.33055
 location	Ashford-Putnam	41.90667	-71.94786
@@ -824,30 +812,4 @@ location	Cayman Islands	19.703182249999998	-79.9174627243246
 location	Grenada	12.1360374	-61.6904045
 location	Montserrat	16.7417041	-62.1916844
 location	Bronx County	40.8466508	-73.8785937
-location	Grafton	43.6428269	-71.7742953
-location	Berkshire	42.12792885	-73.50484912434052
-location	Benin	9.5293472	2.2584408
-location	Burkina Faso	12.0753083	-1.6880314
-location	Djibouti	11.8145966	42.8453061
-location	Estonia	58.7523778	25.3319078
-location	Rwanda	-1.9646631	30.0644358
-location	Sudan	14.5844444	29.4917691
-location	Middlesex  CT	41.4265826	-72.42823719063122
-location	Hartford 	41.7663186	-72.6719962
-location	Windham 	41.6099101	-71.80929863236815
-location	New Haven 	41.3051853	-72.9220124
-location	Fairfield  CT	41.18679	-73.569486
-location	New London 	41.6099101	-71.80929863236815
-location	Litchfield 	42.02828385	-73.49903141730678
-location	Tolland 	41.7306511	-72.3098392
-location	Westchester 	40.9365484	-73.88620556051566
-location	Suffolk  MA	42.358796	-71.0577937
-location	Bronx 	40.85632555	-73.91912534706802
-location	New York 	40.726981300000006	-73.70933686877962
-location	Queens 	40.7463389	-73.9580061935508
-location	Kings  NY	40.7169461	-73.9566296
-location	Nassau  NY	40.726981300000006	-73.70933686877962
-location	Suffolk  NY	40.94519085	-72.84243645466222
-location	Ontario 	43.46589055	-76.50730581904762
-location	Clinton  NY	41.323682899999994	-73.98731842291284
 
